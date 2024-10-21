@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(/image/lectura.jpg); 
+    font-family: 'Arial', sans-serif;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: rgb(197, 94, 154);
+}
+
+section {
+    border-radius: 10px;
+    
+    width: 50%;
+    max-width: 500px;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #2de0c3;
+}
+
+
+p {
+    font-size: 1rem;
+    color: white;
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+    color: #2de0c3;
+}
+
+.reference, .bibliografia {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    color: white;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    margin: 20px 0;
+}
+
